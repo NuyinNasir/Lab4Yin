@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Change content</title>
+    </head>
+</html>
+<body>
+    <div id="myElement">
+        <p id="p1">Welcome to my website!</p>
+    </div>
+
+    <button onclick="changeContent()">Change Content</button>
+    <script>
+        function changeContent(){
+            document.getElementById("p1").innerHTML = "Hello there!";
+        }
+    </script>
+</body>
